@@ -19,6 +19,10 @@ body{
   border-radius: 2rem;
 }
 
+h1{
+  text-shadow: -1px 0 orange, 1px 0 orange, 1px 0 orange, -1px 0 orange;
+}
+
 h2{
   color: orange;
   animation-name: upDown;
