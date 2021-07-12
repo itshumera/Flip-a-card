@@ -1,5 +1,5 @@
 body{
-  background: url('Images/bg.jpg') center/cover fixed no-repeat;
+  background: url('Images/bg.jpg') center/cover scroll no-repeat;
   margin: 0;
   padding: 0;
 }
