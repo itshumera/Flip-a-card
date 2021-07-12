@@ -21,7 +21,8 @@ body{
 
 h1{
   font-size: 2.5rem;
-  margin-top: 1rem; 
+  text-shadow: -2px 0 orange, 2px 0 orange, 2px 0 orange, -2px 0 orange;
+  margin-top: 1rem;
 }
 
 h2{
