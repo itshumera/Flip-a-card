@@ -149,7 +149,7 @@ function flipCard(){
   cardsChosen.push(cardArray[cardId].name);
   this.setAttribute('src', cardArray[cardId].img);
   if(cardsChosen.length == 2){
-    setTimeout(checkForMatch, 700);
+    setTimeout(checkForMatch, 600);
   }
 }
 
