@@ -1,5 +1,7 @@
 body{
   background: url('Images/bg.jpg') center/cover fixed no-repeat;
+  margin: 0;
+  padding: 0;
 }
 
 .section{
