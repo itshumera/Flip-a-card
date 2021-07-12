@@ -1,7 +1,3 @@
-*{
-  transition: all 300ms ease-in-out;
-}
-
 body{
   background: url('Images/bg.jpg') center/cover fixed no-repeat;
   margin: 0;
