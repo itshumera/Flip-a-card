@@ -1,5 +1,5 @@
 body{
-  background: url('Images/bg.jpg') center/cover no-repeat;
+  background: url('Images/bg.jpg') center/cover scroll no-repeat;
 }
 
 .section{
