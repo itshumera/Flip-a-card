@@ -1,0 +1,89 @@
+body{
+  background: url('Images/bg.jpg') center/cover fixed no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.section{
+  min-width: 400px;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  padding: 2rem;
+  border: 4px solid orange;
+  border-radius: 2rem;
+}
+
+h1{
+  font-size: 2.5rem;
+  text-shadow: -2px 0 orange, 2px 0 orange, 2px 0 orange, -2px 0 orange;
+  margin-top: 1rem;
+}
+
+h2{
+  color: orange;
+  animation-name: upDown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes upDown{
+  50%{
+    color: black;
+    transform: translateY(50%);
+  }
+  100%{
+    color: orange;
+    transform: translateY(0%);
+  }
+}
+
+.bottom-img{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  width: 100px;
+}
+
+.bottom-img img{
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+  .box{
+    width: 400px;
+    height: auto;
+  }
+
+  .box img{
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 490px){
+  .box{
+    width: 320px;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .bottom-img{
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 390px){
+  .box{
+    margin-top: 5rem;
+  }
+  .bottom-img{
+    width: 100px;
+  }
+}
